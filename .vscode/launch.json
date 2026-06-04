@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // Debug the API project from start (=launch)
+        {
+            "name": "C#: API Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/API/API.csproj"
+        },
+
+        // Attach to the current already running process
+        {
+            "name": ".Net Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
